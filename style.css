@@ -7,14 +7,17 @@
 }
 body{
     min-height: 100vh;
-    background: linear-gradient();
+    background-image: url("background.photo/image.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 form{
     background: #989898ce;
-    width:  350px;
-    height: 280px;
+    width:  380px;
+    height: 480px;
     padding: 75px 50px;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
 }
